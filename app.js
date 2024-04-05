@@ -11,6 +11,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import jwt from "jsonwebtoken";
+import 'dotenv/config';
 
 const app = express();
 const port = process.env.PORT;
